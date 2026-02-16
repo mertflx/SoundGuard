@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Resources\Logo.ico</ApplicationIcon>
+    <RootNamespace>SoundGuard</RootNamespace>
+    <AssemblyName>SoundGuard</AssemblyName>
+    <Version>1.0.0</Version>
+    <Description>SoundGuard - Bluetooth Hands-Free Telephony Manager</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
